@@ -45,6 +45,6 @@
 </table>
 
     {{ $todos->links() }}
-    {{ $todos->count() * $todos->currentPage() -8 }} - {{ $todos->count() * $todos->currentPage() }} / {{ $todos->total() }}
+    {{ $todos->firstItem() }} - {{ $todos->lastItem() }} / {{ $todos->total() }}
 
 @endsection
