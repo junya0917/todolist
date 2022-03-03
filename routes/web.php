@@ -11,7 +11,9 @@
 |
 */
 
-Route::get('/', 'TodoController@index')->name('todos.index');
+Route::get('/', function () {
+    return view('auth.login');
+});
 
 Auth::routes();
 
