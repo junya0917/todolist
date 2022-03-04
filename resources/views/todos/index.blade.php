@@ -5,7 +5,7 @@
 <h1>ToDoList</h1>
 <a href="{{route('todos.create')}}" class="btn btn-dark mb-sm-1">新規追加</a>
 <form class="form-inline">
-    <input method="GET" action="{{ route('todos.index') }}" class="form-control mr-sm-1" name="search" type="search" placeholder="タイトル・内容" aria-label="Search">
+    <input method="GET" action="{{ route('todos.index') }}" class="form-control mr-sm-1" name="search" type="search" placeholder="タイトル・説明" aria-label="Search">
     <button class="btn btn-outline-success my-2 my-sm-0" type="submit">検索する</button>
 </form>
 
